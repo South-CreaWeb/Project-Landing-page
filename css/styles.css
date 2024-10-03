@@ -17,9 +17,7 @@ body {
     background: var(--background-color);
 }
 
-/* Main */
-
-/* Header part */
+/* HEADER PART*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -88,9 +86,11 @@ button:hover {
     background-color: #4d8ef8;
 }
 
-/* RANDOM INFORMATION */
+/* RANDOM INFORMATION PART */
 .random-infos {
     background-color: var(--text-color);
+    padding: 50px;
+    height: 650px;
 }
 
 .random-infos h1 {
@@ -103,8 +103,8 @@ button:hover {
 .random-infos-container {
     display: flex;
     justify-content: center;
-    gap: 100px;
-    margin-top: 50px;
+    gap: 50px;
+    margin: 70px 0 50px 0;
 }
 
 .random-infos-container .container {
@@ -122,4 +122,70 @@ button:hover {
     height: 200px;
     border: 4px solid var(--button-color);
     border-radius: 10px;
+}
+
+/* CITATION PART */
+.citation {
+    background-color: var(--text-color-dark);
+    width: 100%;
+    height: 500px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.citation-container {
+    width: 60%;
+}
+
+.hero-name-container {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: 900;
+}
+
+/* CTA PART */
+.cta-section {
+    background-color: var(--text-color);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cta-container {
+    background-color: var(--button-color);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border-radius: 10px
+}
+
+.cta-left {
+    color: var(--text-color);
+}
+
+.cta-right button {
+    border: 2px solid var(--text-color);
+    font-size: 16px
+}
+
+/* FOOTER */
+footer {
+    color: var(--text-color);
+    padding: 20px 0;
+    text-align: center;
 }
